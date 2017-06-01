@@ -1,0 +1,229 @@
+/*About stylesheet
+*/
+
+body {
+  margin: 0px;
+  padding: 0px;
+  height: 100%;
+  background-color: #F2F1E8;
+  font-family: "Merriweather";
+}
+
+
+/*Nav bar styling*/
+.top-nav{
+  position: fixed;
+  top: 0;
+  width:100%;
+  box-shadow: 5px 1px 5px #888888;
+  z-index: 5;
+}
+
+.nav-bar {
+  display: flex;
+}
+
+.nav-links {
+  display: flex;
+  justify-content: space-around;
+  align-content: center;
+  margin-left: 32%;
+  list-style-type: none;
+}
+
+.nav-links li {
+  padding: 10px;
+  margin-right: 16%;
+  text-transform: uppercase;
+  font-family: "Merriweather";
+}
+
+.nav-links li a:link {
+  color: #2B2F26;
+}
+
+.nav-links li a:hover {
+  color: #CD5D67;
+}
+
+.nav-links li a:active {
+  color: #968772;
+}
+
+.about-link a {
+  color: #968772;
+}
+
+.top-nav {
+  background-color: white;
+}
+
+.top-logo {
+  width: 3%;
+  height: 3%;
+  padding: 1%;
+}
+
+
+/*Start of body styling*/
+
+.page-header{
+  font-size: 70px;
+  font-weight: 400;
+  text-align: center;
+  margin-top:100px;
+  margin-bottom: 50px;
+}
+
+article{
+  padding-left:200px;
+  padding-right: 200px;
+  line-height: 2;
+  font-size: 20px;
+}
+.intro{
+  padding-bottom: 50px;
+}
+.about-birdhouse{
+  width: 160px;
+  float:left;
+  margin-right: 30px;
+  margin-bottom: 0px;
+  padding-bottom: 40px;
+}
+
+.in-p-formatting{
+  color: #968772;
+}
+
+.in-p-formatting a:hover{
+  color: #CD5D67;
+}
+
+.in-p-formatting a:active {
+  color: #968772;
+}
+
+.intro-block{
+  border-left: 2px solid #968772;
+  font-style: italic;
+  font-weight: 100;
+  margin-top:40px;
+  padding-left: 35px;
+  text-align: left;
+  margin-left:0px;
+}
+
+h3{
+  font-size: 30px;
+  font-weight: 200;
+  margin:0px;
+  padding:0px;
+  margin-bottom:10px;
+}
+
+.about-history p{
+  margin:0px;
+  padding:0px;
+  margin-bottom:55px;
+}
+
+/*Middle parallax banner*/
+
+.about-page-break{
+  color: white;
+  width: 100%;
+  text-align: center;
+  font-size: 65px;
+  padding-top: 8%;
+  font-weight: 200;
+}
+
+.middle-banner {
+      /* The image used */
+      background-image: url("../images/background-3.jpg");
+
+      /* Full height */
+      height: 300px;
+
+      /* Create the parallax scrolling effect */
+      background-attachment: fixed;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+  }
+
+ /*Facilties section formatting*/
+
+.facilities-flex{
+  display: flex;
+  margin-top: 2%;
+}
+
+.about-facilities{
+  margin-top: 5%;
+  flex-basis: 83%;
+}
+
+.about-facilities p {
+  margin-top: -1%;
+}
+
+.facilities-pic{
+  flex-basis:20%;
+  margin-top: 14%
+}
+.facilities-pic img{
+  width:114%;
+  height:50%;
+}
+
+.facilities-pic p{
+  margin-top:2%;
+  font-size: 13px;
+}
+
+/*Monthly plans table formatting*/
+
+table{
+  border-collapse: collapse;
+}
+table tr td{
+  border: 1px solid black;
+}
+
+thead{
+  text-align: center;
+}
+
+td{
+  padding:10px;
+}
+
+.shaded-row{
+  background-color: #EAE3D5;
+}
+/*copyright bar*/
+
+.copyright-tag {
+  position: relative;
+  height: 100px;
+  margin-top: 5%;
+  background-color: #2B2F26;
+  font-family: "Merriweather";
+  z-index: 3;
+  padding: 0px;
+  margin: 0px;
+  margin-top: 20px;
+}
+
+.copyright-info {
+  position: absolute;
+  bottom: 0;
+  height: 50px;
+  background-color: #2B2F26;
+  z-index: 2;
+  padding-left: 20px;
+  width: 95%;
+  color: white;
+}

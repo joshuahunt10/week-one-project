@@ -1,0 +1,147 @@
+/*Fix form formatting*/
+
+
+body {
+  margin: 0px;
+  padding: 0px;
+  height: 100%;
+  background-color: #F2F1E8;
+  font-family: "Merriweather";
+  background-image: url("../images/background-2.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+
+/*Nav bar styling*/
+
+.top-nav {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  box-shadow: 5px 1px 5px #888888;
+  z-index: 5;
+}
+
+.nav-bar {
+  display: flex;
+}
+
+.nav-links {
+  display: flex;
+  justify-content: space-around;
+  align-content: center;
+  margin-left: 32%;
+  list-style-type: none;
+}
+
+.nav-links li {
+  padding: 10px;
+  margin-right: 16%;
+  text-transform: uppercase;
+  font-family: "Merriweather";
+}
+
+.nav-links li a:link {
+  color: #2B2F26;
+}
+
+.nav-links li a:hover {
+  color: #CD5D67;
+}
+
+.nav-links li a:active {
+  color: #968772;
+}
+
+.newsletter-link a {
+  color: #968772;
+}
+
+.top-nav {
+  background-color: white;
+}
+
+.top-logo {
+  width: 3%;
+  height: 3%;
+  padding: 1%;
+}
+
+
+/*Form styling*/
+
+.form-flex{
+  display: flex;
+   justify-content: center;
+   align-items: center;
+   align-content: center;
+}
+
+.sign-up {
+  background-color: white;
+  width: 600px;
+  height: 350px;
+  position: absolute;
+
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding: 3%;
+  justify-content: center;
+}
+
+form h2 {
+  margin: 0px;
+  text-align: center;
+  font-weight: 200;
+}
+
+.form-main-head {
+  font-size: 33px;
+
+}
+
+.form-sub-head {
+  font-size: 21px;
+  font-weight: 400;
+  margin-top: 10px;
+  margin-bottom: 40px;
+}
+
+.form-input{
+  border: none;
+  border-bottom: 2px solid #968772;
+  font-size: 20px;
+  color: #89807F;
+  margin-bottom: 30px;
+  flex-basis: 100%;
+}
+
+.form-input:focus {
+  outline: none !important;
+  border: 2px solid #967343;
+}
+
+.form-submit{
+  background-color: #968772;
+  color:#F2F1E8;
+  border:none;
+  font-weight: 200;
+  font-size: 20px;
+  text-align: center;
+  flex-basis: 25%;
+  padding-top: 2%;
+  padding-bottom: 2%;
+  font-family:"Roboto"
+}
+
+.form-submit:hover{
+  background-color: #967343;
+  color:#FFFFFF;
+}
